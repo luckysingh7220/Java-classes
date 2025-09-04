@@ -5,7 +5,7 @@ class Bank{
 	}
 	void deposit(int amt,String cheque) {
 		System.out.println("Deposit through cheque");
-	}
+	} 
 	void deposit(int amt,String upiid,String name) {
 		System.out.println("Deposit through upi");
 	}
@@ -18,3 +18,4 @@ public class compile{
 		b.deposit(500,"79@ybl","Lucky");
 	}
 }
+		
